@@ -1,7 +1,8 @@
 # This code generates a dimensionless hydrograph plot from flow timeseries data, with user-defined water year
 # Developed by Noelle Patterson, UC Davis Water Management Lab, 2017
+remove.packages("zoo")
 
-rm(list = ls())
+install.packages("zoo")
 library("zoo")
 
 # Define working directory and file where timeseries flow data is located

@@ -3,6 +3,8 @@
 # Developed by Noelle Patterson, UC Davis Water Management Lab, 2017
 
 rm(list = ls())
+
+install.packages("zoo")
 library("zoo")
 
 # Define working directory and file where timeseries flow data is located
